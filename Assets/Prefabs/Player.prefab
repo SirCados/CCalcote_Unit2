@@ -323,7 +323,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &951249361579391774
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -340,7 +340,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &951249361212348138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,10 +354,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 222ea8d87ea4ca6488967064e38f1ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalInput: 0
-  speed: 20
-  xRange: 21
-  projectilePrefab: {fileID: 8477321914830851260, guid: 4652310b3677e884fa0aa4c887d2de1d, type: 3}
+  HorizontalInput: 0
+  Speed: 20
+  HorizontalRange: 15
+  FoodProjectile: {fileID: 8477321914830851260, guid: 4652310b3677e884fa0aa4c887d2de1d, type: 3}
 --- !u!1 &951249361571989684
 GameObject:
   m_ObjectHideFlags: 0
